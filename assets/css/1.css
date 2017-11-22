@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html {
+  font-family: 'Georgia';
+}
+
+h1 {
+	font-size: 36px;
+	color: black;
+}
+
+header {
+	margin: 0 30px;
+}
+
+.wrapper {
+	padding: 40px;
+	
+}
+
+
+.wrapper p{
+	font-size: 12px;
+	color: #999999;
+}
+
+.socialLinks li{
+	float:  right;
+	background-color: black;
+	display: inline-block;
+	padding: 5px;
+}
+.menu{
+	float: right;
+
+}
+
+.navigation{
+	position: relative;
+	margin: 0 40px;
+	background-color: #81b300;
+}
+.navigation ul{
+	 list-style: none;
+	  padding: 0;
+	  display: inline-block;
+}
+
+.navigation li{
+	font-size: 13px;
+	display: inline-block;
+	padding: 20px 10px;
+	margin: 0 auto;
+	color: white; 
+}
+.conteiner {
+	overflow: hidden;
+	display: inline;
+}
+
+#col1 {
+	width: 210px;
+	float : left;
+	padding: 10px;
+}
+
+#col2 {
+	margin-left: 220px;
+	width: 210px;
+	padding: 10px;
+}
+
+#col3 {
+	margin-left: 440px;
+	width: 210px;
+}
+
+
+#col4 {
+	width: 210px;
+	padding: 10px;
+}
+
+form[name="search"] {
+	float: right;
+	padding: 0; 
+}
