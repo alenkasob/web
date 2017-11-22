@@ -18,7 +18,7 @@ header {
 
 .wrapper {
 	padding: 40px;
-	
+	display: inline;
 }
 
 
@@ -28,14 +28,22 @@ header {
 }
 
 .socialLinks li{
+	padding: 5px;
+	position: relative;
 	float:  right;
 	background-color: black;
 	display: inline-block;
-	padding: 5px;
+	margin : 10px;
+	
 }
 .menu{
-	float: right;
-list-style: none;
+	list-style:none;
+}
+.menu li{
+	display: inline-block;	
+}
+.menu a{
+	display:block;
 }
 
 .navigation{
@@ -54,7 +62,8 @@ list-style: none;
 	display: inline-block;
 	padding: 20px 10px;
 	margin: 0 auto;
-	color: white; 
+	color: white;
+	text-transform: uppercase;	
 }
 .conteiner {
 	overflow: hidden;
