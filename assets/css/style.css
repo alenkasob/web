@@ -12,60 +12,81 @@ h1 {
 	color: black;
 }
 
-header {
-	margin: 0 30px;
-}
-
 .wrapper {
-	padding: 40px;
-	display: inline;
+	width: 900px;
+	margin: 0 auto;
 }
 
+.logo {
+	display: block;
+	float: left;
+	font-size: 36px;
+}
 
-.wrapper p{
+.logo p{
 	font-size: 12px;
 	color: #999999;
+	
 }
 
-.socialLinks li{
-	padding: 5px;
+.menusoc {
+	float: right;
+	display: block;
+	width: 33%;
+}
+
+.socialLinks {
 	position: relative;
-	float:  right;
+	float: right;	
+}
+
+.socialLinks li {
+	width: 35px;
+	height: 35px;
 	background-color: black;
 	display: inline-block;
 	margin : 10px;
-	
+	border-radius: 50%;
 }
-.menu{
+
+.menu {
+	float: right;
+}
+
+.menu li {
 	list-style:none;
-}
-.menu li{
 	display: inline-block;	
 }
+
 .menu a{
 	display:block;
 }
 
-.navigation{
-	position: relative;
-	margin: 0 40px;
-	background-color: #81b300;
-}
-.navigation ul{
-	list-style: none;
-	  padding: 0;
-	  display: inline-block;
+.navigation {
+	height: 70px;
+	background: #81b300;
+	float: right;
+	width: 100%;
 }
 
-.navigation li{
+.navigation ul {
+	line-height: 70px;
+}
+
+.navigation ul li {
+	list-style: none;
 	font-size: 13px;
 	display: inline-block;
-	padding: 20px 10px;
-	margin: 0 auto;
+	padding-left: 10px;
 	color: white;
 	text-transform: uppercase;	
 }
-.conteiner {
+
+form {
+	display: block;
+	float: right;
+}
+.container {
 	overflow: hidden;
 	display: inline;
 }
@@ -93,7 +114,4 @@ header {
 	padding: 10px;
 }
 
-form[name="search"] {
-	float: right;
-	padding: 0; 
-}
+
